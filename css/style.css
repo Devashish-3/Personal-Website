@@ -523,3 +523,156 @@
        
     }
 }
+
+/* Devices less than 425px */
+@media (max-width: 425px) {
+    .btn-lg-square {
+        width: 36px;
+        height: 36px;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    .portfolio-btn {
+        padding: 15px !important;
+        padding-bottom: 70px !important;
+    }
+
+    .team-item:hover .team-text div {
+        margin-left: 8px;
+    }
+
+    #about .years .display-1 {
+        font-size: 5rem;
+        line-height: 4.5rem;
+    }
+
+    .typed-cursor {
+        font-size: 18px;
+    }
+
+    .my-6 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .py-6 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .testimonial-carousel .owl-item img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .testimonial-carousel .testimonial-icon {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+/* Devices less than 375px */
+@media (max-width: 375px) {
+    .btn-lg-square {
+        width: 34px;
+        height: 34px;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 14px;
+        padding: 7px;
+    }
+
+    .portfolio-btn {
+        padding: 12px !important;
+        padding-bottom: 60px !important;
+    }
+
+    .team-item:hover .team-text div {
+        margin-left: 6px;
+    }
+
+    #about .years .display-1 {
+        font-size: 4.5rem;
+        line-height: 4rem;
+    }
+
+    .typed-cursor {
+        font-size: 16px;
+    }
+
+    .my-6 {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .py-6 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .testimonial-carousel .owl-item img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .testimonial-carousel .testimonial-icon {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* Devices less than 320px */
+@media (max-width: 320px) {
+    .btn-lg-square {
+        width: 32px;
+        height: 32px;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 13px;
+        padding: 6px;
+    }
+
+    .portfolio-btn {
+        padding: 10px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .team-item:hover .team-text div {
+        margin-left: 4px;
+    }
+
+    #about .years .display-1 {
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+
+    .typed-cursor {
+        font-size: 14px;
+    }
+
+    .my-6 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .py-6 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .testimonial-carousel .owl-item img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .testimonial-carousel .testimonial-icon {
+        width: 22px;
+        height: 22px;
+    }
+}
